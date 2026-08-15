@@ -28,3 +28,22 @@
 
 ### Next
 for文・while文
+
+
+## day 3
+
+### Learned
+-for文
+-range()
+-繰り返し処理
+-二重ループ
+-for+if
+
+### Build
+-九九表
+
+### What I learned
+同じ処理をfor文で繰り返せることを理解した。また、ループの回数が計算量につながってることを理解した
+
+### Next
+while文
