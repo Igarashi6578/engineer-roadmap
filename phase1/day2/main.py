@@ -75,3 +75,12 @@ elif 60<=score<=69:
     print("Pass")
 else:
     print("Fail")
+
+name=int(input("名前を入力して"))
+age=int(input("年齢を入力して"))
+print(f"{name}さんは{age}歳です")
+if age>=21:
+    print("成人です")
+else:
+    print("未成年です")
+
