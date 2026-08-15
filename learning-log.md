@@ -65,3 +65,26 @@ for文は繰り返す回数が決まっている場合に向いている。while
 
 ### Next
 List
+
+
+## day 5
+
+### Learned
+-list
+-index
+-append()
+-insert()
+-remove()
+-pop()
+-len()
+-list and for
+-list and if
+
+### Build
+-成績管理プログラム
+
+### What I learned
+listを使うことで複数のデータをまとめて管理できる。for文と組み合わせることでデータを順番に処理できる。
+
+### Next
+listの応用・文字列操作
