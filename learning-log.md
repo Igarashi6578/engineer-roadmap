@@ -39,7 +39,7 @@ for文・while文
 -二重ループ
 -for+if
 
-### Build
+### Built
 -九九表
 
 ### What I learned
@@ -80,7 +80,7 @@ List
 -list and for
 -list and if
 
-### Build
+### Built
 -成績管理プログラム
 
 ### What I learned
@@ -88,3 +88,23 @@ listを使うことで複数のデータをまとめて管理できる。for文�
 
 ### Next
 listの応用・文字列操作
+
+
+## day 6
+
+### Learned
+-listのスライス
+-文字列のindex
+-len
+-split
+-listへのデータ追加
+-listを使ったデータ処理
+
+### Built
+-成績データ分析プログラム
+
+### What I learned
+listとfor、ifを組み合わせることで、複数のデータから必要な情報を抽出・集計できることを理解できた。
+
+### Next
+Dictionary
