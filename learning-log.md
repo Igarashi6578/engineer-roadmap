@@ -47,3 +47,21 @@ for文・while文
 
 ### Next
 while文
+
+
+## day 4
+
+### Learned
+-while
+-whileとforの違い
+-無限ループ
+-while+if
+
+### Build
+-数字あてゲーム
+
+### What I learned
+for文は繰り返す回数が決まっている場合に向いている。whileは条件を満たしているとき繰り返すのに向いている。
+
+### Next
+List
