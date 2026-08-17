@@ -108,3 +108,23 @@ listとfor、ifを組み合わせることで、複数のデータから必要�
 
 ### Next
 Dictionary
+
+
+## day7
+
+### Learned
+-Dictionary
+-key/value
+-Dictionaryの追加・変更・消去
+-Dictionary × for
+-Dictionary × if
+-Dictionaryの中にListを入れる
+
+### Built
+-学生情報管理プログラム
+
+### What I learned
+Dictionaryを使うことで、名前付きのデータ構造を作れることを理解した。
+
+### Next
+関数
