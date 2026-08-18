@@ -1,0 +1,159 @@
+name="Hiroki"
+age=20
+tall=175.5
+print(name)
+print(age)
+print(tall)
+
+price=1200
+quantiy=3
+to=price*quantiy
+print(to)
+
+age="20"
+age=int(age)
+a=age+20
+print(a)
+
+a=70
+if a>=60:
+    print("合格")
+else:
+    print("失格")
+
+a=12
+if 0<=a<=12:
+    print("子供")
+elif 13<=a<=17:
+    print("学生")
+else:
+    print("成人")
+
+age=18
+ticket=True
+if age>=18 and ticket==True:
+    print("入場できます")
+else:
+    print("入場できません")
+
+for i in range(1,11):
+    print(i)
+
+j=0
+for i in range(1,101):
+    j+=i
+print(j)
+
+for i in range(1,51):
+    if i%5==0:
+        print(i)
+
+a=10
+while a>0:
+    print(a)
+    a-=1
+
+#countに何も変更が加えられておらず、ずっと０のため、条件である５より小さいという状況が続くため。
+
+languages=["Python","JavaScript","TypeScript"]
+a=languages[0]
+print(a)
+b=languages[2]
+print(b)
+languages.insert(3,"Go")
+languages.remove("JavaScript")
+print(languages)
+
+numbera=[10,20,30,40,50]
+for i in numbera:
+    print(i)
+
+scores=[45,82,91,55,76,63,39]
+for i in scores:
+    if i>=60:
+        print(i)
+
+number=[10,20,30,40,50]
+a=sum(number)
+b=len(number)
+c=a/b
+d=max(number)
+e=min(number)
+print(a)
+print(c)
+print(d)
+print(e)
+
+name={
+    "name":"田中",
+    "age":20,
+    "university":"同志社大学"
+}
+print(name["name"],name["age"],name["university"])
+
+student={
+    "name":"田中",
+    "age":20
+}
+student["age"]=21
+student["university"]="同志社大学"
+print(student)
+
+scores={
+    "田中":80,
+    "佐藤":55,
+    "鈴木":92,
+    "山田":68
+}
+for key,value in scores.items():
+    if value>=60:
+        print(key,value)
+
+students=[
+    {"name":"田中","score":80},
+    {"name":"佐藤","score":55},
+    {"name":"鈴木","score":92},
+    {"name":"山田","score":68},
+    {"name":"高橋","score":45}
+]
+for i in students:
+    print(i["name"],i["score"])
+for i in students:
+    if i["score"]>=60:
+        print(i["name"],i["score"])
+print(f"{len(i)+1}人です")
+a=0
+for i in students:
+    a+=i["score"]
+b=len(students)
+c=a/b
+print(c)
+
+user={
+    "name":"Hiroki",
+    "password":"python123"
+}
+users={
+
+}
+a=input("名前を入力してください")
+b=input("パスワードを入力してください")
+users["name"]=a
+users["password"]=b
+if user==users:
+    print("ログイン成功！" \
+    "ようこそHirokiさん")
+elif user["name"]!=users["name"]:
+    print("ユーザー名が違います")
+else:
+    print("パスワードが違います")
+
+for i in range(1,101):
+    if i%15==0:
+        print("FizzBuzz")
+    elif i%3==0:
+        print("Fizz")
+    elif i%5==0:
+        print("buzz")
+    else:
+        print(i)
