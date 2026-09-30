@@ -50,7 +50,7 @@ for i in teams:
         if high_score<s:
             high_player=n
             high_score=s
-        if s<=80:
+        if s<80:
             low_player.append(n)
     avg=avg_team(score)
     judge=judge_score(avg)
