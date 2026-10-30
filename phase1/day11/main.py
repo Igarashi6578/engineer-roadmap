@@ -83,7 +83,6 @@ def filter_students(students):
 def count_students(students):
     ac=filter_students(students)
     return len(ac)
-
 students = [
     {"name": "田中", "score": [80, 75, 92]},
     {"name": "佐藤", "score": [55, 60, 48]},
