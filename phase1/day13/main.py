@@ -37,9 +37,11 @@ def read_file(filename):
     return a
 def main(filename):
     try:
-        read_file(filename)
+        text=read_file(filename)
+        print(text)
     except FileNotFoundError:
         return "ファイルが見つかりません"
+        
 filename="unknown.txt"
 a=main(filename)
 print(a)
